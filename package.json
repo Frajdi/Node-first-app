@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Frajdi/Node-first-app#readme",
   "dependencies": {
+    "core-util-is": "^1.0.3",
     "lodash": "^4.17.21",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "webpack-dev-server": "^4.9.2"
   }
 }

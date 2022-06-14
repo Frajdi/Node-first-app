@@ -1,10 +1,5 @@
-const concatedArr = require('./concat.js')
-const sum = require('./sum')
+const sumArr = require('./utility/sum')
+const concatedArr = require('./utility/concat');
 
-
-console.log(`this is the concatination of arrays${concatedArr.concatedArr}`);
-console.log(`This is the sum of all elements from both arrays ${sum.sum}`);
-
-
-
-
+console.log(`The sum of the arrays is ${sumArr.sum}`);
+console.log(`The concated array is [${concatedArr.concatedArr}]`);
